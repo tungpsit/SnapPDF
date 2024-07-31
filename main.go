@@ -14,9 +14,9 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage:")
-		fmt.Println("  jpg-to-pdf <input.jpg>")
-		fmt.Println("  jpg-to-pdf --install")
-		fmt.Println("  jpg-to-pdf --uninstall")
+		fmt.Println("  SnapPDF <input.jpg>")
+		fmt.Println("  SnapPDF --install")
+		fmt.Println("  SnapPDF --uninstall")
 		return
 	}
 
